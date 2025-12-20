@@ -1,11 +1,11 @@
-# 🛒 GoMart - Ghana's Premier E-commerce Platform
+# 🛒 GoMart E-commerce Platform
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-GoMart-blue?style=flat-square\&logo=github)](https://github.com/Dornu/CA_10201100184-resit-.git)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=flat-square\&logo=node.js)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB-green?style=flat-square\&logo=mongodb)](https://mongodb.com/)
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js-black?style=flat-square\&logo=next.js)](https://nextjs.org/)
 
-## 🌟 Developer
+## 🌟 Dev
 
 * **Name:** Caleb Abayateye
 * **Roll Number:** 10201100184
