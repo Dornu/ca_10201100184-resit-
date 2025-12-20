@@ -1,233 +1,142 @@
 # 🛒 GoMart - Ghana's Premier E-commerce Platform
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-GoMart-blue?style=flat-square&logo=github)](https://github.com/Dery001/CA_10201100092.git)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/Database-MongoDB-green?style=flat-square&logo=mongodb)](https://mongodb.com/)
-[![Next.js](https://img.shields.io/badge/Frontend-Next.js-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-GoMart-blue?style=flat-square\&logo=github)](https://github.com/Dornu/CA_10201100184-resit-.git)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=flat-square\&logo=node.js)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-green?style=flat-square\&logo=mongodb)](https://mongodb.com/)
+[![Next.js](https://img.shields.io/badge/Frontend-Next.js-black?style=flat-square\&logo=next.js)](https://nextjs.org/)
+
 ## 🌟 Developer
-Name: Martin Dery
-Roll Number:10201100092
-## 🌟 Project Overview
 
-GoMart is an innovative, comprehensive e-commerce platform designed specifically for the Ghanaian market. Built with modern technologies and localized features, it provides a seamless shopping experience with integrated Mobile Money payments, local delivery services, and Ghana-specific business logic.
+* **Name:** Caleb Abayateye
+* **Roll Number:** 10201100184
 
-## 📁 Repository Information
+## 🌟 Overview
 
-**Repository:** [GoMart E-commerce App](https://github.com/Dery001/CA_10201100092.git)  
-**Technology:** Full-stack JavaScript (Node.js + Next.js)  
-**Database:** MongoDB Atlas with Prisma ORM
+GoMart is a Ghana-focused, multi-vendor e-commerce platform delivering seamless shopping experiences. It supports local payment methods (Mobile Money), regional delivery services, vendor management, and is tailored for the Ghanaian market.
+
+## 📁 Repository
+
+* **Repo:** [GoMart E-commerce App](https://github.com/Dornu/CA_10201100184-resit-.git)
+* **Tech:** Node.js + Next.js
+* **Database:** MongoDB Atlas + Prisma ORM
 
 ## 🚀 Key Features
 
-### 🇬🇭 Ghana-Focused Features
-- **Mobile Money Integration**: MTN Mobile Money, Vodafone Cash, AirtelTigo Money
-- **Local Delivery**: Integration with Ghana Post, DHL Ghana, Bolt, Jumia Logistics
-- **Regional Support**: Ghana regions (Greater Accra, Ashanti, etc.) and cities
-- **Currency**: Ghana Cedi (GHS) as primary currency
-- **Local Business Logic**: Tailored for Ghanaian e-commerce needs
+**🇬🇭 Ghana-Specific**
 
-### 🛍️ Core E-commerce Features
-- Multi-vendor marketplace
-- Product catalog with categories
-- Shopping cart and checkout
-- Order management and tracking
-- Customer reviews and ratings
-- Vendor management system
-- Payment processing
-- Shipping and delivery tracking
+* Mobile Money: MTN, Vodafone, AirtelTigo
+* Local delivery: Ghana Post, DHL Ghana, Bolt, Jumia Logistics
+* Regional support: Greater Accra, Ashanti, etc.
+* Currency: Ghana Cedi (GHS)
 
-### 🤖 Innovative Features (Future Phases)
-- AI-powered product recommendations
-- Voice-enabled search
-- AR/3D product preview
-- Gamification system with rewards
-- Advanced analytics dashboard
+**🛍️ Core E-commerce**
+
+* Multi-vendor marketplace & product catalog
+* Shopping cart, checkout, orders & tracking
+* Customer reviews & ratings
+* Vendor management
+* Payment processing & delivery tracking
+
+**🤖 Future Features**
+
+* AI product recommendations
+* Voice search & AR/3D previews
+* Gamification & rewards
+* Analytics dashboard
 
 ## 🏗️ Project Structure
 
 ```
 EcommerceCloudApp/
-├── prisma/                    # Prisma schema and seed files
-│   ├── schema.prisma          # Database schema
-│   └── seed.ts                # Database seeding script
-├── src/                       # Next.js Application
-│   ├── app/                   # Next.js App Router
-│   │   ├── api/               # API routes
-│   │   ├── ui/                # UI pages
-│   │   ├── layout.tsx         # Root layout
-│   │   └── page.tsx           # Home page
-│   ├── components/            # Reusable UI components
-│   └── lib/                   # Utility libraries
-├── public/                    # Static assets
-└── README.md                  # Project documentation
+├── prisma/          # Database schema & seed
+├── src/             # Next.js app
+│   ├── app/         # Pages & API routes
+│   ├── components/  # UI components
+│   └── lib/         # Utilities
+├── public/          # Static assets
+└── README.md
 ```
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
-### Backend (API Routes)
-- **Framework**: Next.js API Routes
-- **Database**: MongoDB with Prisma ORM
-- **Authentication**: JWT (JSON Web Tokens)
-- **Validation**: Built-in validation
+**Backend:** Next.js API Routes, MongoDB + Prisma, JWT auth
+**Frontend:** Next.js 15, TailwindCSS, React Hooks, React Toastify
+**Database:** Customers, Products, Orders, Shipping, Reviews, Cart
 
-### Frontend
-- **Framework**: Next.js 15 (React 19)
-- **Styling**: TailwindCSS
-- **State Management**: React Hooks
-- **UI Components**: Custom components with Tailwind
-- **Notifications**: React Toastify
+## 🔧 Setup
 
-### Database Schema
-- **Customer Management**: User profiles, authentication
-- **Product Catalog**: Products, categories, vendors
-- **Order Processing**: Orders, order items, payments
-- **Shipping**: Delivery tracking, courier management
-- **Reviews**: Product ratings and feedback
-- **Cart**: Shopping cart functionality
+**Prerequisites:** Node.js v18+, npm/yarn, MongoDB, Git
 
-## 🔧 Setup Instructions
+**Clone Repo:**
 
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
-- MongoDB Atlas account (or local MongoDB)
-- Git
-
-### Clone Repository
 ```bash
-git clone https://github.com/Dery001/CA_10201100092.git
-cd ca_10211100297/EcommerceCloudApp
+git clone https://github.com/Dornu/CA_10201100184-resit-.git
+cd EcommerceCloudApp
 ```
 
-### Project Setup
+**Install Dependencies:**
 
-1. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-2. **Environment Configuration**:
-   Create a `.env` file in the project root with the following variables:
-   ```env
-   # Database Configuration
-   DATABASE_URL="Create a PERSONAL MONGOdb URL"
-   
-   # JWT Secret (Change in production - use a strong random string)
-   # 🛒 GoMart — Ghana's E‑commerce Platform
+**Environment:**
+Create `.env`:
 
-   [![GitHub Repository](https://img.shields.io/badge/GitHub-GoMart-blue?style=flat-square&logo=github)](https://github.com/Dery001/CA_10201100092.git) [![Next.js](https://img.shields.io/badge/Frontend-Next.js-black?style=flat-square&logo=next.js)](https://nextjs.org/) [![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js)](https://nodejs.org/)
+```env
+DATABASE_URL="YOUR_MONGODB_URI"
+JWT_SECRET="CHANGE_ME"
+NEXTAUTH_SECRET="CHANGE_ME"
+NEXTAUTH_URL="http://localhost:3000"
+```
 
-   Short, focused README with key sections for developers and maintainers.
+**Prisma Setup:**
 
-   ## Live Demo
+```bash
+npm run db:generate
+npm run db:push
+npm run db:seed  # optional
+```
 
-   - Live site: **REPLACE_WITH_LIVE_URL**
+**Run Development Server:**
 
-   > Add the real live URL above (remove the placeholder).
+```bash
+npm run dev
+```
 
-   ## Summary
+Access at `http://localhost:3000`.
 
-   GoMart is a modern, Ghana-focused multi-vendor e-commerce platform built with Next.js, Prisma, and MongoDB. It supports local payment methods (Mobile Money), regional delivery options, and vendor management.
+## 🔌 API Examples
 
-   ## Quick Links
+* `GET /api/products` — List products
+* `GET /api/products/:id` — Product details
+* `POST /api/customers/register` — Register customer
+* `POST /api/customers/login` — Customer login
 
-   - Repository: https://github.com/Dery001/CA_10201100092.git
-   - Local dev: http://localhost:3000
+Full API routes: `src/app/api`
 
-   ## Features
+## 🚀 Deployment
 
-   - Mobile Money integrations (MTN, Vodafone, AirtelTigo)
-   - Multi-vendor product catalog
-   - Shopping cart, checkout, orders, and reviews
-   - Vendor management and order tracking
+1. Configure environment variables in hosting platform
+2. Build & start:
 
-   ## Project Structure (high-level)
+```bash
+npm run build
+npm run start
+```
 
-   ```
-   EcommerceCloudApp/
-   ├─ prisma/           # schema & seed
-   ├─ src/              # Next.js app (app router)
-   │  ├─ app/           # pages, api routes
-   │  ├─ components/    # UI components
-   │  └─ lib/           # utilities
-   ├─ public/           # static assets
-   └─ README.md
-   ```
+**Recommendation:** Vercel for Next.js
 
-   ## Getting Started (development)
+## 🤝 Contributing
 
-   Prerequisites
+1. Fork repo
+2. Create feature branch
+3. Open PR with description & tests
 
-   - Node.js v18+ and npm or yarn
-   - MongoDB (Atlas or local)
+## 📄 License
 
-   Steps
+MIT
 
-   ```bash
-   git clone https://github.com/Dery001/CA_10201100092.git
-   cd EcommerceCloudApp
-   npm install
-   ```
+## 🌐 Live Demo
 
-   1. Create a `.env` file (see `.env.example` or the `Environment` section below).
-   2. Generate Prisma client and push schema:
-
-   ```bash
-   npm run db:generate
-   npm run db:push
-   npm run db:seed    # optional
-   ```
-
-   3. Start development server:
-
-   ```bash
-   npm run dev
-   ```
-
-   The app runs at `http://localhost:3000`.
-
-   ## Environment
-
-   Create a `.env` with values for the following (example):
-
-   ```env
-   DATABASE_URL="mongodb+srv://<user>:<pass>@<cluster>/<db>?retryWrites=true&w=majority"
-   JWT_SECRET="change-me"
-   NEXTAUTH_SECRET="change-me"
-   NEXTAUTH_URL="http://localhost:3000"
-   ```
-
-   Never commit secrets to the repo. Use `.env.example` as a template.
-
-   ## API (examples)
-
-   - `GET /api/products` — list products
-   - `GET /api/products/:id` — product details
-   - `POST /api/customers/register` — register customer
-   - `POST /api/customers/login` — login
-
-   Refer to the `src/app/api` folder for full route details.
-
-   ## Deployment
-
-   1. Configure production environment variables in your hosting platform.
-   2. Build and deploy (Vercel recommended for Next.js):
-
-   ```bash
-   npm run build
-   npm run start
-   ```
-
-   ## Contributing
-
-   1. Fork the repo
-   2. Create a feature branch
-   3. Open a PR with a clear description and tests if applicable
-
-   ## License
-
-   MIT
-
-   ---
-
-   If you'd like, I can (a) add the actual live URL you mentioned, (b) add a `Live Demo` badge, or (c) create a `.env.example` file. Tell me which. 
+[https://gomartgh.onrender.com/](https://gomartgh.onrender.com/)
